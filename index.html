@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercice1.1</title>
+    <!--lien pour la feuille de style-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body>
+    <!--exercice1-->
+    <header></header>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+                    <div class="card card-signin my-5">
+                        <div class="card-body">
+                            <h5 class="card-title text-center"><b>Se connecter</b></h5>
+                            <form class="form-signin" action="loginServlet" method="post" autocomplete="off">
+    <div class="for-label-group">
+        <input type="email" id="inputEmail" name="username" class="form-control" placeholder="Adresse e-mail" required
+            autofocus value="" autocomplete="off">
+        <label for="inpuEmail">Adresse e-mail</label>
+    </div>
+    <div class="form-label-group">
+        <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Mot de passe"
+            required value="" autocomplete="off">
+        <label for="inputPassword">Mot de passe</label>
+    </div>
+    <div class="custom-control custom-checkbox mb-3">
+        <input type="checkbox" class="custom-control-input" id="customcheck1">
+        <label class="custom-control-label" for="customcheck1">Se souvenir de moi</label>
+        <label class="motpasse" for="customcheck1">Mot de passe oublié</label>
+    </div>
+    <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Se connecter</button>
+    <hr class="my-4">
+        <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fa fa-google mr-2"></i>Se
+            connecter avec Google</button>
+        <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i
+                class="fa fa-facebook-f mr-2"></i>Se connecter avec Facebook</button>
+        </form>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <!--lien pour le fichier js-->
+        <script src="js/bootstrap.bundle.min.js">
+        </script>
+        <footer></footer>
+</body>
+</html>
