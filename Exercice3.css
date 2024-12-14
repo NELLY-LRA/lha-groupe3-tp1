@@ -1,0 +1,24 @@
+section.col-sm-8,
+section.col-sm-10,
+article.col-sm-6, 
+nav.col-sm-2,
+div.col-sm-12,
+div.col-sm-10,
+div.col-sm-2,
+aside{
+line-height : 60px ;
+background-color: bisque;
+border : 1px solid red;
+border-radius: 4px;
+margin:0px;
+}
+
+h2{
+    text-align: center;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+body{
+    margin-top: 8px;
+}
