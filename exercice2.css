@@ -1,0 +1,38 @@
+body{
+  margin-top: 2px;
+  margin-bottom: 8px;
+}
+
+
+.panel1 {
+    border: 2px solid #0087FF;
+    background-color: #DDEDFF;
+    color: #208be2;
+  border-radius: 0.3rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.color2{background-color: #DECDFE;
+    color: #A88FE0;
+border: 2px solid #A88FE0;}
+.color3{background-color: #FCD2E5;
+    color: #DA9CAD;
+border: 2px solid #DA9CAD;}
+
+
+
+
+.panel {
+    border: 1px solid #0087FF;
+    background-color: #DDEDFF;
+    color: #0087FF;
+  border-radius: 0.3rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+h2{ 
+  text-align: center;
+    font-size: 18px;
+    text-decoration: underline;
+}
